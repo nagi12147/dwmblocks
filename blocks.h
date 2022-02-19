@@ -2,9 +2,10 @@
 static const Block blocks[] = {
 	/*Icon      Command     Update Interval	    Update Signal*/
 	{ " ",      "wifi",      30,                4},
+	{ "",       "wifisignal", 1,                4},
 	{ "",       "netraf",    1,                 4},
 	{ "",       "volume",    0,                 10},
-	{ "",       "battery",   5,                 2},
+	{ "",       "battery",   1,                 2},
 	{ "",       "datetime",  30,                1},
 };
 
